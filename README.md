@@ -36,6 +36,8 @@ A Linux-based service that accepts, stores, queries, and reports environmental s
 - Linux
 - APIs
 - Cloud Fundamentals
+
+
 ## Used By
 
 This project is used as a student portfolio and may be used by Rotary BVI.
@@ -46,13 +48,13 @@ This project is used as a student portfolio and may be used by Rotary BVI.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/shamecomputer-14/environmental-robotics-data-service.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd environmental-data-service
 ```
 
 Install dependencies
@@ -73,7 +75,6 @@ Start the server
 Install my-project with npm
 
 ```bash
-  npm install my-project
-  cd my-project
+  npm install environmental-data-service
+  cd environmental-data-service
 ```
-    
