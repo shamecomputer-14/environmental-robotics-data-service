@@ -1,3 +1,12 @@
 spring:
   application:
     name: environmental-data-service
+  datasource:
+    url: jdbc:postgresql://localhost:5544/${POSTGRES_DB:envdata}   # must match the host port above
+    username: ${POSTGRES_USER:envdata_user}
+    password: ${POSTGRES_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
